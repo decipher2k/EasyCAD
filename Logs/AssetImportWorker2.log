@@ -1,0 +1,818 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'de' Physical Memory: 32382 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/libfive-unity-master
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51033
+Successfully changed project path to: C:/libfive-unity-master
+C:/libfive-unity-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22424]  Target information:
+
+Player connection [22424]  * "[IP] 192.168.2.166 [Port] 0 [Flags] 2 [Guid] 3234111354 [EditorId] 3234111354 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8EKJNLQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22424]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3234111354 [EditorId] 3234111354 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8EKJNLQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/libfive-unity-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   31.0.15.4624
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002890 seconds.
+- Loaded All Assemblies, in  0.229 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 426ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.580 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (53.4 KB). Loaded Objects now: 3467.
+Memory consumption went from 201.3 MB to 201.3 MB.
+Total: 6.787400 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.107300 ms MarkObjects: 6.346100 ms  DeleteObjects: 0.117500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1570.606658 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/SkinnedMeshFlareSettings.lighting
+  artifactKey: Guid(4187792dc4ee8ff4fb7c60d27fbb4642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/SkinnedMeshFlareSettings.lighting using Guid(4187792dc4ee8ff4fb7c60d27fbb4642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '235429385ac3a470bd1a895ca7259df6') in 0.107158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/Mesh Deformers.unity
+  artifactKey: Guid(53228efcb6458cf41aa5609d6737470a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/Mesh Deformers.unity using Guid(53228efcb6458cf41aa5609d6737470a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '269193d75319bdb9f7f73e9cf760e4cb') in 0.014051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/KalderaPrefabPainter/KalderaDocumetation.pdf
+  artifactKey: Guid(17546efc6c6528e42867b69d10bf837e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/KalderaDocumetation.pdf using Guid(17546efc6c6528e42867b69d10bf837e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3cb6c40da82095692986e5f9a22ad772') in 0.011791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/SkinnedMeshRippleSettings.lighting
+  artifactKey: Guid(c0d9704ae8a5a014c83372d4d6fa8b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/SkinnedMeshRippleSettings.lighting using Guid(c0d9704ae8a5a014c83372d4d6fa8b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b12269e67c91a487bb9116639007b523') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FreeFlyCamera/Documentation/FreeFlyCamera_ru.pdf
+  artifactKey: Guid(878e70decc5254841b8310d665bf6844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FreeFlyCamera/Documentation/FreeFlyCamera_ru.pdf using Guid(878e70decc5254841b8310d665bf6844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0d00a0c8055b1ab3a58cda46e8f061b6') in 0.007339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Transform Gizmos/Gizmo.prefab
+  artifactKey: Guid(b7222a1d1f9e86b4e989fa621985dc97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Gizmo.prefab using Guid(b7222a1d1f9e86b4e989fa621985dc97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8e4c02eef93e5ae819829c33d9549313') in 0.081935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 273
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/RippleEffectorSettings.lighting
+  artifactKey: Guid(42df8e6aa7aa201489d69490ae4d3df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/RippleEffectorSettings.lighting using Guid(42df8e6aa7aa201489d69490ae4d3df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f34ec01aa6802fa7507d23d9117bf575') in 0.035891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Transform Gizmos/Saw.prefab
+  artifactKey: Guid(99c5a4d666ed0ad47aca3db02a2bf21c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Saw.prefab using Guid(99c5a4d666ed0ad47aca3db02a2bf21c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5e783593b46839c70ace857dadcd5b34') in 0.018400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/object deformersSettings.lighting
+  artifactKey: Guid(4af1e44393fbc8947bb334378aee6fee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/object deformersSettings.lighting using Guid(4af1e44393fbc8947bb334378aee6fee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '180d908c9a3b9fbe13fdd7d8ed9f2f50') in 0.045506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Deformers Assets/Images/im 3.png
+  artifactKey: Guid(a329783145567524281a650428dea848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/Images/im 3.png using Guid(a329783145567524281a650428dea848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ae4bb7cb0b3309d9486a28ff584fd01a') in 0.065579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KalderaPrefabPainter/Images/TileSetIcon.png
+  artifactKey: Guid(d20b671f97b8db94cbf039f4b02e7d8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/TileSetIcon.png using Guid(d20b671f97b8db94cbf039f4b02e7d8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bd0ed861d7c841f4c66681a5339d0668') in 0.035596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/libfive/Scripts/LFTree.cs
+  artifactKey: Guid(7aba5fa85daf45341bf89c2d6cbf848a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/libfive/Scripts/LFTree.cs using Guid(7aba5fa85daf45341bf89c2d6cbf848a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6fa2e884220779f9f37dc179fd82b1f1') in 0.017514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7d9b9eb06ad4ab21569b3ff8bc702614') in 0.018114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/SkinnedMeshSineSettings.lighting
+  artifactKey: Guid(797848d3c4f02e74eb1c4127ee71cbec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/SkinnedMeshSineSettings.lighting using Guid(797848d3c4f02e74eb1c4127ee71cbec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '2e8ce19bad6c11da0d56ad3d1ac8cab8') in 0.028336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/KalderaPrefabPainter/Images/TileCategoryIcon.png
+  artifactKey: Guid(5199fdc712f4b2c4f999e9cc21c611e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/TileCategoryIcon.png using Guid(5199fdc712f4b2c4f999e9cc21c611e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a082d02889a731419da3f525182ea15d') in 0.038251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/SkinnedMeshSine.unity
+  artifactKey: Guid(0a0d2550af82a3c4f93bb3e3b82af93f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/SkinnedMeshSine.unity using Guid(0a0d2550af82a3c4f93bb3e3b82af93f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '13427af7f6a5122b009115cfec8a06e0') in 0.012962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Deformers Assets/Images/im1.png
+  artifactKey: Guid(600e5b02257bcc74b8873dfb32631ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/Images/im1.png using Guid(600e5b02257bcc74b8873dfb32631ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '55913a90a1b7015e7173c22f187f1b41') in 0.035055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FreeFlyCamera/Documentation/FreeFlyCamera_en.pdf
+  artifactKey: Guid(e77f4846974bc9a4f8d3e01f6b2653c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FreeFlyCamera/Documentation/FreeFlyCamera_en.pdf using Guid(e77f4846974bc9a4f8d3e01f6b2653c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f7917099e3763a96517771f44672af42') in 0.013162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Transform Gizmos/Scripts/ScalingZ.cs
+  artifactKey: Guid(a90e6a0d99ded5546bce8e130f68c310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/ScalingZ.cs using Guid(a90e6a0d99ded5546bce8e130f68c310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '20796495a5cce784423504514c5734e0') in 0.011904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Transform Gizmos/Scripts/TranslationX.cs
+  artifactKey: Guid(a46cc91dd361dc443b7e6407c5b261b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/TranslationX.cs using Guid(a46cc91dd361dc443b7e6407c5b261b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ff6a5a0cb2966ab55e9fb1a6dfe7130b') in 0.017493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Deformers Assets/DeformersScripts/ExtraScripts/ColorizeGrid.cs
+  artifactKey: Guid(edf0958e02fa8684a8d0da158f785372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/DeformersScripts/ExtraScripts/ColorizeGrid.cs using Guid(edf0958e02fa8684a8d0da158f785372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fc98d4027d00c0b5fbfc273b27239402') in 0.016768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Transform Gizmos/Materials/Green.mat
+  artifactKey: Guid(8ee6b8e5b74be4f5993c3e5b2831948a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Materials/Green.mat using Guid(8ee6b8e5b74be4f5993c3e5b2831948a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cd50253186605b0ead73df3a4f88cc48') in 0.057027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Transform Gizmos/Materials/Grey.mat
+  artifactKey: Guid(31374e85c96337c4fb2dc01327657c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Materials/Grey.mat using Guid(31374e85c96337c4fb2dc01327657c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2a8c8456a6b87e79c0e8757c64110b40') in 0.019663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Transform Gizmos/Scripts/ScalingX.cs
+  artifactKey: Guid(c8f619e338463284487ddfe9ca0f1eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/ScalingX.cs using Guid(c8f619e338463284487ddfe9ca0f1eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '09016482eb963e87bad5a2aa986e41fc') in 0.018304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Deformers Assets/DeformersScripts/Objects Deformer/ObjectTransformEffectorDeformer.cs
+  artifactKey: Guid(72a9f33b4d1020249b07a42e08110453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/DeformersScripts/Objects Deformer/ObjectTransformEffectorDeformer.cs using Guid(72a9f33b4d1020249b07a42e08110453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9f54c16562f106fed23549e44d26e25c') in 0.019163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Transform Gizmos/Scripts/RotationZ.cs
+  artifactKey: Guid(92f590b13a3c4414f9b5347f2131e5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/RotationZ.cs using Guid(92f590b13a3c4414f9b5347f2131e5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '24c961a937ba10197c5268cf02ab2512') in 0.016665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7422baba1e97544f84fb083b2c65f03c') in 0.018443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Transform Gizmos/Scripts/GizmoBigger.cs
+  artifactKey: Guid(2ff270f614b46a64ea8680a0bef66518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/GizmoBigger.cs using Guid(2ff270f614b46a64ea8680a0bef66518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd04ea2bedfe1d168dae5c1919ec5f18f') in 0.017477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Transform Gizmos/Scripts/IGizmoTransforms.cs
+  artifactKey: Guid(23c6c16b7a8f0c84d8c30bf94ef54f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/IGizmoTransforms.cs using Guid(23c6c16b7a8f0c84d8c30bf94ef54f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bd0963a934b29fc80c7997867c89691e') in 0.014820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Deformers Assets/DeformersScripts/Mesh Deformers/RippleDeformer.cs
+  artifactKey: Guid(5fbb70b48805cd04083940578d45f997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/DeformersScripts/Mesh Deformers/RippleDeformer.cs using Guid(5fbb70b48805cd04083940578d45f997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '17ae3ababd5a43258f9b8b74cb2018aa') in 0.016778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Deformers Assets/DeformersScripts/Mesh Deformers/ImageDeformer.cs
+  artifactKey: Guid(16fa3889cc9be494dbe561aac1326a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/DeformersScripts/Mesh Deformers/ImageDeformer.cs using Guid(16fa3889cc9be494dbe561aac1326a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e2016123c81dc772b8f5138c5f6e4c14') in 0.018035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Transform Gizmos/Models/scaleObjectBigger.obj
+  artifactKey: Guid(9efe49414375d7d41b097e9fcaf8c97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Models/scaleObjectBigger.obj using Guid(9efe49414375d7d41b097e9fcaf8c97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f8cac8211dae89d6c08801ef3a126b0c') in 0.052198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Transform Gizmos/Scripts/GizmoController.cs
+  artifactKey: Guid(5445ad6ba0f4fbb46bb37f256f230cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Transform Gizmos/Scripts/GizmoController.cs using Guid(5445ad6ba0f4fbb46bb37f256f230cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c119a396932b3e2e882f72877393f7b1') in 0.016395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TreeViewControl/middle_sibling_collapsed.png
+  artifactKey: Guid(86c08f39a59b6d0499c8ccc5efd0add0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TreeViewControl/middle_sibling_collapsed.png using Guid(86c08f39a59b6d0499c8ccc5efd0add0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dccd52e2f51033da4ec2b42f8369351d') in 0.035135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Deformers Assets/DeformersScripts/Mesh Deformers/SineDeformer.cs
+  artifactKey: Guid(8b8571080928a5444983304707af9998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/DeformersScripts/Mesh Deformers/SineDeformer.cs using Guid(8b8571080928a5444983304707af9998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '40e6ef4a4e4a4cf64a45dca429c5cced') in 0.015765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TreeViewControl/Example.cs
+  artifactKey: Guid(1467642895983bf4fa01fd5fd021c18b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TreeViewControl/Example.cs using Guid(1467642895983bf4fa01fd5fd021c18b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '84e58f794d758c9beb0f4957e38f5fba') in 0.018651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/Mesh DeformersSettings.lighting
+  artifactKey: Guid(f74c0d8da118af84b8a36bbed18167e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/Mesh DeformersSettings.lighting using Guid(f74c0d8da118af84b8a36bbed18167e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ce2ef1ed62610001a7142624a3d599fe') in 0.029809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.050602 seconds.
+  path: Assets/Deformers Assets/ExampleScenes/Anims/rippleMeshEffectorAnims.anim
+  artifactKey: Guid(2038061d11286b441867ee3bcbc8d990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/ExampleScenes/Anims/rippleMeshEffectorAnims.anim using Guid(2038061d11286b441867ee3bcbc8d990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e8d7d8622e7beed2cde286b164b9e39d') in 0.021179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '79c5c3f129993ecb86e63a8297962421') in 0.039718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Deformers Assets/Images/Materials/PlaneMat.mat
+  artifactKey: Guid(2acd56eb5f6119245bb212366e6d7d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Deformers Assets/Images/Materials/PlaneMat.mat using Guid(2acd56eb5f6119245bb212366e6d7d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'da57c4882c7dd9bd903e93164eed7ea5') in 0.033473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/KalderaPrefabPainter/Images/Resources/OrientToNormalIcon.png
+  artifactKey: Guid(e2f091ee63a78db45ae3143adc1ad9da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/Resources/OrientToNormalIcon.png using Guid(e2f091ee63a78db45ae3143adc1ad9da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9689dd1d64403aba455d7c0c6abceca0') in 0.039171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Source_Assets/Kaldera_AssetSet.asset
+  artifactKey: Guid(681eaa0e6cd469842b436ab0779564d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Source_Assets/Kaldera_AssetSet.asset using Guid(681eaa0e6cd469842b436ab0779564d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd6f6f8e31cca3278d6191c6ab64e7a03') in 0.051753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Brushes/BrushBase.cs
+  artifactKey: Guid(e64db63c7f2f3c644b4461023cdd5adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Brushes/BrushBase.cs using Guid(e64db63c7f2f3c644b4461023cdd5adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f9288832b4cff0cef3a88d9ad99271bb') in 0.018659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Distribution/RandomDistribution.cs
+  artifactKey: Guid(1bee8cd4655ab7746af58c2ca85c8cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Distribution/RandomDistribution.cs using Guid(1bee8cd4655ab7746af58c2ca85c8cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'def941e1d0b72b7382a529cdc639febc') in 0.019113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Brushes/SingleBrush.cs
+  artifactKey: Guid(c7e07b5b0c37cae4a89259111173fd0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Brushes/SingleBrush.cs using Guid(c7e07b5b0c37cae4a89259111173fd0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f58810f6ee3373a2b43b045260183d28') in 0.013931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/KalderaPrefabPainter/Images/Resources/IconDistributionPerlin.png
+  artifactKey: Guid(6c43a8fbf69cc5441b8215fcd3990093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/Resources/IconDistributionPerlin.png using Guid(6c43a8fbf69cc5441b8215fcd3990093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c4929cb72e076e8917494db66af6b285') in 0.036029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6afbf9fa97e688014331f074b3bc7ed4') in 0.042022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/ScenePlacer.cs
+  artifactKey: Guid(1b039bd8aafa3544a8dd2835fafff1aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/ScenePlacer.cs using Guid(1b039bd8aafa3544a8dd2835fafff1aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'de31f2b20d6195ed8d3d84ede6cc5db2') in 0.017874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KalderaPrefabPainter/Images/Resources/MaintainRotationIcon.png
+  artifactKey: Guid(a92f25030eea11c4e89ac72ae3a10884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/Resources/MaintainRotationIcon.png using Guid(a92f25030eea11c4e89ac72ae3a10884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '04de5d95eca6fb5678ea0664a0e90484') in 0.040778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KalderaPrefabPainter/Images/Resources/MoveDownIcon.png
+  artifactKey: Guid(e205732d302499e4ea12e72c833753fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/Resources/MoveDownIcon.png using Guid(e205732d302499e4ea12e72c833753fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1a9b6a0856548d7002bbb5c39e0c732c') in 0.036114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Structures/Vulcan_Crate_P.prefab
+  artifactKey: Guid(196ea120b388c7c419ceaddfd2c55782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Structures/Vulcan_Crate_P.prefab using Guid(196ea120b388c7c419ceaddfd2c55782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7e1bb46c086133b6fbb6c8c08b9ca05b') in 0.027150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KalderaPrefabPainter/Images/Resources/TrashIcon.png
+  artifactKey: Guid(6ede6a205d512b6478ace4db03572998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Images/Resources/TrashIcon.png using Guid(6ede6a205d512b6478ace4db03572998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd8b1b0a92ca688f88a9ff83e0c6bc961') in 0.037842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Scrap_04.prefab
+  artifactKey: Guid(d15a6bcab3ab559409573017c653ec6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Scrap_04.prefab using Guid(d15a6bcab3ab559409573017c653ec6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '121353e81919cb19a466d9cbb586f2d0') in 0.046820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Assets_A.png
+  artifactKey: Guid(92a5c0cf75a457046a898f5630cb1005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Assets_A.png using Guid(92a5c0cf75a457046a898f5630cb1005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '938ca506b0c1a18145a5a34f586b2cc6') in 0.036467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/RaycastModes/ViewportRaycastMode.cs
+  artifactKey: Guid(37e044b0bc2662047b4c43463bfe66a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/RaycastModes/ViewportRaycastMode.cs using Guid(37e044b0bc2662047b4c43463bfe66a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '56bd8dab271bbf9bf96ee2875ea88cf8') in 0.020391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Assets_M.tga
+  artifactKey: Guid(ae13a8249e2552548a2327afbf6d3941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Assets_M.tga using Guid(ae13a8249e2552548a2327afbf6d3941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4abce553ff4571d65e06e301f321f082') in 0.041277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Utils/StylesUtility.cs
+  artifactKey: Guid(05f8a381178d04d4bb47be16cda4e9a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Utils/StylesUtility.cs using Guid(05f8a381178d04d4bb47be16cda4e9a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '548918305efcbbd32eb27cb8757e65f4') in 0.020900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/TerrainMaterials/Assets/Vulcan_Sand_albedo.png
+  artifactKey: Guid(5c95786edb0901a49b4a78ce4d254732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/TerrainMaterials/Assets/Vulcan_Sand_albedo.png using Guid(5c95786edb0901a49b4a78ce4d254732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1c69e30cee996ea3fa12069843d0e073') in 0.034909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Editors/PaletteWindow.cs
+  artifactKey: Guid(42b2884276983c34782999253228ea7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Editors/PaletteWindow.cs using Guid(42b2884276983c34782999253228ea7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f0db9a2f57b1ccba75a349208663cf43') in 0.016532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Utils/EditorGUIUtilities.cs
+  artifactKey: Guid(1106d13f77575d04ead97d9c49002acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Utils/EditorGUIUtilities.cs using Guid(1106d13f77575d04ead97d9c49002acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c8c2d51b854f07a7f84e5daf0de757b0') in 0.017473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Crate.fbx
+  artifactKey: Guid(b8252405403b49640bc69e01002757d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Crate.fbx using Guid(b8252405403b49640bc69e01002757d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '57ee838b87c22f91758302677595691e') in 0.021236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/SpawnEffects/KalderaSpawnEffectsSettings.cs
+  artifactKey: Guid(b7efb9f9904c662428cc0ba52990e4f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/SpawnEffects/KalderaSpawnEffectsSettings.cs using Guid(b7efb9f9904c662428cc0ba52990e4f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ec7c29920003fe4bf3808d37a86f148b') in 0.016096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Scrap_01.fbx
+  artifactKey: Guid(7ee27132e9ed8d449b06356cd78a880c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Props/Assets/Scrap_01.fbx using Guid(7ee27132e9ed8d449b06356cd78a880c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c4ea26eeeb1c5efb46de59cc2fb64ee6') in 0.025047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Editors/PaletteSetEditor.cs
+  artifactKey: Guid(fd6b00ee5453dce4da0ef5ac45fb5a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Editors/PaletteSetEditor.cs using Guid(fd6b00ee5453dce4da0ef5ac45fb5a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b5357a6164cd657cd500aca9eab2b734') in 0.017020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Source_Assets/Kaldera_Structures_Category.asset
+  artifactKey: Guid(186c0568e6c795445a2f6e211f7e9987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Source_Assets/Kaldera_Structures_Category.asset using Guid(186c0568e6c795445a2f6e211f7e9987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '38b5592a1bfc7b9e93d4720ca83933c7') in 0.020901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/KalderaPrefabPainter/Scripts/Editor/Brushes/DummyBrush.cs
+  artifactKey: Guid(829e992654c256045a32c160d4c7c380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Scripts/Editor/Brushes/DummyBrush.cs using Guid(829e992654c256045a32c160d4c7c380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b121d178bea8e0b2a8c8fff0b342660d') in 0.018076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/TerrainMaterials/Vulcan_Rock_TerrainLayer.terrainlayer
+  artifactKey: Guid(a07a99dfcaaebbb4cb02f48f2627b954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/TerrainMaterials/Vulcan_Rock_TerrainLayer.terrainlayer using Guid(a07a99dfcaaebbb4cb02f48f2627b954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '01f5ef705b32ff7e54b68dd09b03c8e5') in 0.027998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/VFX/Resources/Dust_VFX_Sprite.png
+  artifactKey: Guid(af5112b1c56000b4a916749129f86076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/VFX/Resources/Dust_VFX_Sprite.png using Guid(af5112b1c56000b4a916749129f86076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cbaee98e037118e015f9ef92c79957cd') in 0.029249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Structures/Assets/Satellite__NoGlow_Mat.mat
+  artifactKey: Guid(7accfbc821421a346a86a8522f67e7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/KalderaPrefabPainter/Examples/Prefabs/Kaldera_Structures/Assets/Satellite__NoGlow_Mat.mat using Guid(7accfbc821421a346a86a8522f67e7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ca69c9cfbf4920bf47104214d7cf0eb2') in 0.049234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
